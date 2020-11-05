@@ -124,6 +124,7 @@ GAN
 SOM
 Convolutional neural network
 U-Net
+Transformer
 
 
 Reinforcement learning
@@ -243,10 +244,8 @@ Classification – is the task of generalizing known structure to apply to new d
 Regression – attempts to find a function that models the data with the least error that is, for estimating the relationships among data or datasets.
 Summarization – providing a more compact representation of the data set, including visualization and report generation.
 Results validation[edit]
- An example of data produced by data dredging through a bot operated by statistician Tyler Vigen, apparently showing a close link between the best word winning a spelling bee competition and the number of people in the United States killed by venomous spiders. The similarity in trends is obviously a coincidence.
+ An example of data produced by data dredging through a bot operated by statistician Tyler Vigen, apparently showing a close link between the best word winning a spelling bee competition and the number of people in the United States killed by venomous spiders. The similarity in trends is obviously a coincidence.This section is missing information about non-classification tasks in data mining. It only covers machine learning. Please expand the section to include this information. Further details may exist on the talk page. (September 2011)
 Data mining can unintentionally be misused, and can then produce results that appear to be significant; but which do not actually predict future behavior and cannot be reproduced on a new sample of data and bear little use. Often this results from investigating too many hypotheses and not performing proper statistical hypothesis testing. A simple version of this problem in machine learning is known as overfitting, but the same problem can arise at different phases of the process and thus a train/test split—when applicable at all—may not be sufficient to prevent this from happening.[20]
-
-This section is missing information about non-classification tasks in data mining. It only covers machine learning. Please expand the section to include this information. Further details may exist on the talk page. (September 2011)
 The final step of knowledge discovery from data is to verify that the patterns produced by the data mining algorithms occur in the wider data set. Not all patterns found by data mining algorithms are necessarily valid. It is common for data mining algorithms to find patterns in the training set which are not present in the general data set. This is called overfitting. To overcome this, the evaluation uses a test set of data on which the data mining algorithm was not trained. The learned patterns are applied to this test set, and the resulting output is compared to the desired output. For example, a data mining algorithm trying to distinguish "spam" from "legitimate" emails would be trained on a training set of sample e-mails. Once trained, the learned patterns would be applied to the test set of e-mails on which it had not been trained. The accuracy of the patterns can then be measured from how many e-mails they correctly classify. Several statistical methods may be used to evaluate the algorithm, such as ROC curves.
 If the learned patterns do not meet the desired standards, subsequently it is necessary to re-evaluate and change the pre-processing and data mining steps. If the learned patterns do meet the desired standards, then the final step is to interpret the learned patterns and turn them into knowledge.
 
@@ -339,6 +338,8 @@ SPSS Modeler: data mining software provided by IBM.
 STATISTICA Data Miner: data mining software provided by StatSoft.
 Tanagra: Visualisation-oriented data mining software, also for teaching.
 Vertica: data mining software provided by Hewlett-Packard.
+Google Cloud Platform: automated custom ML models managed by Google.
+Amazon SageMaker: managed service provided by Amazon for creating & productionising custom ML models.
 See also[edit]
 Methods
 
@@ -521,6 +522,7 @@ Wikimedia Commons has media related to Data mining.
 Knowledge Discovery Software at Curlie
 Data Mining Tool Vendors at Curlie
 vteData
+Augmentation
 Analysis
 Archaeology
 Cleansing
@@ -655,6 +657,7 @@ Software configuration management
 Software library
 Software repository
 Software development
+Control variable
 Software development process
 Requirements analysis
 Software design
@@ -779,7 +782,7 @@ NDL: 00948240
 
 
 
-Retrieved from "https://en.wikipedia.org/w/index.php?title=Data_mining&oldid=975616260"
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Data_mining&oldid=986612910"
 Categories: Data miningFormal sciencesHidden categories: CS1 maint: multiple names: authors listWebarchive template wayback linksArticles with short descriptionShort description is different from WikidataArticles to be expanded from September 2011All articles with specifically marked weasel-worded phrasesArticles with specifically marked weasel-worded phrases from August 2019Commons category link is on WikidataArticles with Curlie linksWikipedia articles with GND identifiersWikipedia articles with NDL identifiers
 
 
@@ -795,8 +798,6 @@ Navigation menu
 Personal tools
 
 
-
-
 Not logged inTalkContributionsCreate accountLog in
 
 
@@ -805,8 +806,6 @@ Not logged inTalkContributionsCreate accountLog in
 
 
 Namespaces
-
-
 
 
 ArticleTalk
@@ -827,11 +826,7 @@ Variants
 
 
 
-
-
 Views
-
-
 
 
 ReadEditView history
@@ -842,8 +837,6 @@ ReadEditView history
 
 
 More
-
-
 
 
 
@@ -874,9 +867,7 @@ Search
 Navigation
 
 
-
-
-Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonateWikipedia store
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
 
 
 
@@ -885,17 +876,13 @@ Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonateWiki
 Contribute
 
 
-
-
-HelpCommunity portalRecent changesUpload file
+HelpLearn to editCommunity portalRecent changesUpload file
 
 
 
 
 
 Tools
-
-
 
 
 What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
@@ -907,8 +894,6 @@ What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informa
 Print/export
 
 
-
-
 Download as PDFPrintable version
 
 
@@ -916,8 +901,6 @@ Download as PDFPrintable version
 
 
 In other projects
-
-
 
 
 Wikimedia Commons
@@ -929,9 +912,7 @@ Wikimedia Commons
 Languages
 
 
-
-
-العربيةঅসমীয়াAzərbaycancaবাংলাБългарскиCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEuskaraفارسیFrançais한국어Հայերենहिन्दीHrvatskiBahasa IndonesiaItalianoעבריתಕನ್ನಡLatviešuMagyarМакедонскиമലയാളംमराठीBahasa MelayuМонголမြန်မာဘာသာNederlands日本語Norsk bokmålNorsk nynorskPolskiPortuguêsRomânăРусскийScotsShqipSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSundaSuomiSvenskaதமிழ்ไทยТоҷикӣTürkçeУкраїнськаTiếng Việtייִדיש粵語中文
+العربيةঅসমীয়াAzərbaycancaবাংলাБългарскиCatalàČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEuskaraفارسیFrançais한국어Հայերենहिन्दीHrvatskiBahasa IndonesiaItalianoעבריתಕನ್ನಡLatviešuMagyarМакедонскиമലയാളംमराठीBahasa MelayuМонголမြန်မာဘာသာNederlands日本語Norsk bokmålNorsk nynorskPolskiPortuguêsRomânăРусскийShqipSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSundaSuomiSvenskaதமிழ்ไทยТоҷикӣTürkçeУкраїнськаTiếng Việtייִדיש粵語中文
 Edit links
 
 
@@ -939,7 +920,7 @@ Edit links
 
 
 
- This page was last edited on 29 August 2020, at 14:41 (UTC).
+ This page was last edited on 1 November 2020, at 23:06 (UTC).
 Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 

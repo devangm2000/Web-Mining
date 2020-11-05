@@ -40,7 +40,8 @@ From Wikipedia, the free encyclopedia
 
 Jump to navigation
 Jump to search
-This article may require cleanup to meet Wikipedia's quality standards. No cleanup reason has been specified. Please help improve this article if you can. (June 2009) (Learn how and when to remove this template message)
+This article includes a list of references, related reading or external links, but its sources remain unclear because it lacks inline citations. Please help to improve this article by introducing more precise citations. (October 2020) (Learn how and when to remove this template message)
+This article may require cleanup to meet Wikipedia's quality standards. The specific problem is: The article needs sufficient inline references, and a complete re-write has been proposed. Please help improve this article if you can. (October 2020) (Learn how and when to remove this template message)
 Web mining is the application of data mining techniques to discover patterns from the World Wide Web. As the name proposes, this is information gathered by mining the web. It makes utilization of automated apparatuses to reveal and extricate data from servers and web2 reports, and it permits organizations to get to both organized and unstructured information from browser activities, server logs, website and link structure, page content and different sources.
 The goal of Web structure mining is to generate structural summary about the Web site and Web page. Technically, Web content mining mainly focuses on the structure of inner-document, while Web structure mining tries to discover the link structure of the hyperlinks at the inter-document level. Based on the topology of the hyperlinks, Web structure mining will categorize the Web pages and generate the information, such as the similarity and relationship between different Web sites.
 Web structure mining can also have another direction – discovering the structure of Web document itself. This type of structure mining can be used to reveal the structure (schema) of Web pages, this would be good for navigation purpose and make it possible to compare/integrate Web page schemes. This type of structure mining will facilitate introducing database techniques for accessing information in Web pages by providing a reference schema.
@@ -66,11 +67,9 @@ Contents
 
 5 See also
 6 References
-7 Resources
 
-7.1 External links
-7.2 Books
-7.3 Bibliographic references
+6.1 Books
+6.2 Bibliographic references
 
 
 
@@ -213,6 +212,7 @@ Some mining algorithms might use controversial attributes like sex, race, religi
 
 Web structure mining[edit]
 This section needs expansion. You can help by adding to it. (June 2015)
+This section is in list format, but may read better as prose. You can help by converting this section, if appropriate. Editing help is available. (October 2020)
 Web structure mining uses graph theory to analyze the node and connection structure of a web site. According to the type of web structural data, web structure mining can be divided into two kinds:
 
 Extracting patterns from hyperlinks in the web: a hyperlink is a structural component that connects the web page to a different location.
@@ -224,9 +224,8 @@ Node: web page in graph.
 Edge: hyperlinks.
 In degree: number of links pointing to particular node.
 Out degree: number of links generated  from particular node.
-Techniques of web structure mining:
+An example of a techniques of web structure mining is the PageRank algorithm used by Google to rank search results. The rank of a page is decided by the number and quality of links pointing to the target node.
 
-PageRank: this algorithm is used by Google to rank search results. The name of this algorithm is given by Google-founder Larry Page. The rank of a page is decided by the number of links pointing to the target node.
 Web content mining[edit]
 Web content mining is the mining, extraction and integration of useful data, information and knowledge from Web page content. The heterogeneity and the lack of structure that permits much of the ever-expanding information sources on the World Wide Web, such as hypertext documents, makes automated discovery, organization, and search and indexing tools of the Internet and the World Wide Web such as Lycos, Alta Vista, WebCrawler, Aliweb, MetaCrawler, and others provide some comfort to users, but they do not generally provide structural information nor categorize, filter, or interpret documents. These factors have prompted researchers to develop more intelligent tools for information retrieval, such as intelligent web agents, as well as to extend database and data mining techniques to provide a higher level of organization for semi-structured data available on the web. The agent-based approach to web mining involves the development of sophisticated AI systems that can act autonomously or semi-autonomously on behalf of a particular user, to discover and organize web-based information.
 Web content mining is differentiated from two different points of view:[8] Information Retrieval View and Database View.[9] summarized the research works done for unstructured data and semi-structured data from information retrieval view. It shows that most of the researches use bag of words, which is based on the statistics about single words in isolation, to represent unstructured text and take single word found in the training corpus as features. For the semi-structured data, all the works utilize the HTML structures inside the documents and some utilized the hyperlink structure between the documents for document representation. As for the database view, in order to have the better information management and querying on the web, the mining always tries to infer the structure of the web site to transform a web site to become a database.
@@ -264,27 +263,20 @@ References[edit]
 
 ^ Wang, Yan. "Web Mining and Knowledge Discovery of Usage Patterns".
 
-^ Kosala, Raymond; Hendrik Blockeel (July 2000). "Web Mining Research: A Survey". SIGKDD Explorations. 2 (1). arXiv:cs.LG/0011033. doi:10.1145/360402.360406.
+^ Kosala, Raymond; Hendrik Blockeel (July 2000). "Web Mining Research: A Survey". SIGKDD Explorations. 2 (1). arXiv:cs.LG/0011033. doi:10.1145/360402.360406. S2CID 60455.
 
 ^ Galitsky B, Dobrocsi G, de la Rosa JL, Kuznetsov SO.  Using generalization of syntactic parse trees for taxonomy capture on the web. ICCS. 2011;8323.
 
 ^ Speirs, Martha A. (2013). "Data mining for scholarly journals: challenges and solutions for libraries". Cite journal requires |journal= (help)
 
-^ Dhakal, Kerry (15 April 2019). "Unpaywall". Journal of the Medical Library Association. 107 (2). doi:10.5195/jmla.2019.650. PMC 6466485.
+^ Dhakal, Kerry (15 April 2019). "Unpaywall". Journal of the Medical Library Association. 107 (2): 286–288. doi:10.5195/jmla.2019.650. PMC 6466485.
 
 
-Resources[edit]
-This article includes a list of references, but its sources remain unclear because it has insufficient inline citations. Please help to improve this article by introducing more precise citations. (September 2009) (Learn how and when to remove this template message)
-External links[edit]
-The Future of Web Sites = Web Services – (with a section on web scraping)
 Books[edit]
-Zdravko Markov, Daniel T. Larose "Data Mining the Web: Uncovering Patterns in Web Content, Structure, and Usage", Wiley, 2007
 Jesus Mena, "Data Mining Your Website", Digital Press, 1999
 Soumen Chakrabarti, "Mining the Web: Analysis of Hypertext and Semi Structured Data", Morgan Kaufmann, 2002
-Bing Liu, "Web Data Mining: Exploring Hyperlinks, Contents and Usage Data", Springer, 2007
 Advances in Web Mining and Web Usage Analysis 2005 - revised papers from 7 th workshop on Knowledge Discovery on the Web, Olfa Nasraoui, Osmar Zaiane, Myra Spiliopoulou, Bamshad Mobasher, Philip Yu, Brij Masand, Eds., Springer Lecture Notes in Artificial Intelligence, LNAI 4198, 2006
 Web Mining and Web Usage Analysis 2004 - revised papers from 6 th workshop on Knowledge Discovery on the Web, Bamshad Mobasher, Olfa Nasraoui, Bing Liu, Brij Masand, Eds., Springer Lecture Notes in Artificial Intelligence, 2006
-Mike Thelwall, "Link Analysis: An Information Science Approach", 2004, Academic Press
 Bibliographic references[edit]
 Baraglia, R. Silvestri, F. (2007) "Dynamic personalization of web sites without user intervention", In Communications of the ACM 50(2): 63-67
 Cooley, R. Mobasher, B. and Srivastave, J. (1997) “Web Mining: Information and Pattern Discovery on the World Wide Web” In Proceedings of the 9th IEEE International Conference on Tool with Artificial Intelligence
@@ -302,12 +294,13 @@ Pierrakos, D., Paliouras, G., Papatheodorou, C., Spyropoulos C. D. (2003) “Web
 I-Hsien Ting, Chris Kimble, Daniel Kudenko (2005) "A Pattern Restore Method for Restoring Missing Patterns in Server Side Clickstream Data"
 I-Hsien Ting, Chris Kimble, Daniel Kudenko (2006) "UBB Mining: Finding Unexpected Browsing Behaviour in Clickstream Data to improve a Web Site’s Design"
 Weichbroth, P., Owoc, M., Pleszkun, M. (2012) "Web User Navigation Patterns Discovery from WWW Server Log Files"
+Madria S.K., Bhowmick S.S., Ng W.K., Lim E.P. (1999) Research Issues in Web Data Mining. In: Mohania M., Tjoa A.M. (eds) DataWarehousing and Knowledge Discovery. DaWaK 1999. Lecture Notes in Computer Science, vol 1676. Springer, Berlin, Heidelberg. https://doi.org/10.1007/3-540-48298-9_32.
 
 
 
 
-Retrieved from "https://en.wikipedia.org/w/index.php?title=Web_mining&oldid=965466027"
-Categories: Web analyticsData miningWorld Wide WebHidden categories: CS1 errors: missing periodicalArticles needing cleanup from June 2009All pages needing cleanupCleanup tagged articles without a reason field from June 2009Wikipedia pages needing cleanup from June 2009Articles to be expanded from June 2015All articles to be expandedArticles using small message boxesArticles lacking in-text citations from September 2009All articles lacking in-text citations
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Web_mining&oldid=986969215"
+Categories: Web analyticsData miningWorld Wide WebHidden categories: CS1 errors: missing periodicalArticles lacking in-text citations from October 2020All articles lacking in-text citationsArticles needing cleanup from October 2020All pages needing cleanupCleanup tagged articles with a reason field from October 2020Wikipedia pages needing cleanup from October 2020Articles to be expanded from June 2015All articles to be expandedArticles using small message boxesArticles with sections that need to be turned into prose from October 2020
 
 
 
@@ -322,8 +315,6 @@ Navigation menu
 Personal tools
 
 
-
-
 Not logged inTalkContributionsCreate accountLog in
 
 
@@ -332,8 +323,6 @@ Not logged inTalkContributionsCreate accountLog in
 
 
 Namespaces
-
-
 
 
 ArticleTalk
@@ -354,11 +343,7 @@ Variants
 
 
 
-
-
 Views
-
-
 
 
 ReadEditView history
@@ -369,8 +354,6 @@ ReadEditView history
 
 
 More
-
-
 
 
 
@@ -401,9 +384,7 @@ Search
 Navigation
 
 
-
-
-Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonateWikipedia store
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
 
 
 
@@ -412,17 +393,13 @@ Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonateWiki
 Contribute
 
 
-
-
-HelpCommunity portalRecent changesUpload file
+HelpLearn to editCommunity portalRecent changesUpload file
 
 
 
 
 
 Tools
-
-
 
 
 What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
@@ -434,8 +411,6 @@ What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informa
 Print/export
 
 
-
-
 Download as PDFPrintable version
 
 
@@ -443,8 +418,6 @@ Download as PDFPrintable version
 
 
 Languages
-
-
 
 
 العربيةDeutschEspañolEuskaraفارسیFrançais한국어हिन्दीHrvatskiMagyar日本語PortuguêsРусскийSlovenčinaไทย
@@ -455,7 +428,7 @@ Edit links
 
 
 
- This page was last edited on 1 July 2020, at 13:43 (UTC).
+ This page was last edited on 4 November 2020, at 01:37 (UTC).
 Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 
